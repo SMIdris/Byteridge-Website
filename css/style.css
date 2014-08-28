@@ -1,0 +1,248 @@
+body {background-color:#ECECEC;color: #333;}
+h1 { font-size:23px; font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif"; font-weight:lighter;padding-bottom: 20px;}
+div#masterPageContent {width: 980px;height:auto;margin: auto;padding-top: 0px;background-color:#fff;}
+#topMenuBand {margin-bottom: 5px;height:60px;width:100%;padding-top:20px;padding-left: 50px;}
+#topMenuBandHome {margin-bottom: 5px;height:60px;width:100%;padding-top:20px;padding-left: 50px}
+#topMenuBand a img{border:none;}
+.logo{float:left;}
+img {border: none;}
+#navi{float:left;padding-left: 235px;padding-top:17px;font-size: 16px;font-family: "Segoe UI","Tahoma","Verdana","Arial","sans-serif";}
+#navi ul {list-style-type: none;}
+.menuitem{ display: inline; padding: 20px; }
+#navi a {color:#333333;}
+#navi a:hover{padding-bottom: 16px !important;border-bottom-color: #FFFF00;border-bottom-style: solid;border-bottom-width: 4px;}
+a:link, a:visited {text-decoration: none;}
+.banner{background: url(../images/shadow.png) no-repeat;background-position:left bottom;}
+.bottomline{border-bottom: 2px solid #ECECEC;margin-left:auto;margin-right:auto;display:inline-block;}
+.featuredClient{width:100%;float:left;padding-left: 50px;padding-top: 38px;display: block;}
+.FeatureIcon{float: left;width:auto;padding-right:46px;}
+.FeatureIcon img{}
+
+.HomeTestimonials{width:100%;float:left;padding-left: 50px;padding-top: 55px;}
+.Testimonials{float:left;width:47%;padding-top: 0px;padding-bottom:50px;font-size: 12px;font-family: "Segoe UI","Tahoma","Verdana","Arial","sans-serif";color:#333333;}
+.TestimonialPicture{float:left;margin-right:15px;padding-top: 27px;}
+/* .TestimonialComment{float:left;width:320px;background-color: #FFFF00;padding: 10px 9px 10px 16px;} */
+.TestimonialInfo{float:left;font-size:14px;padding-top: 15px;}
+#footer{width:100%;height:50px;border-top: 4px solid #FFFF00;float:left;background-color: #999;line-height:2.9;}
+.footerlink{float:left;width:49%;padding-left: 30px;font-size:14px;font-family: "Segoe UI","Tahoma","Verdana","Arial","sans-serif";}
+#footer a{color:#FFF;text-decoration: none;}
+.footerseperator {padding-left: 8px;padding-right: 8px;color: #fff;font-size: 16px;}
+.sociallink{float:right;width:20%;margin-top: 9px;}
+.clearit{clear:both;}
+.TestimonialComment {
+    float:left;
+	width:320px;
+	height:auto;
+	background-color: #FFFF00;
+	position: relative;
+	border: 4px solid #FFFF00;
+	padding: 10px 0px 10px 16px;
+}
+
+.TestimonialComment:after, .TestimonialComment:before {
+	border: solid transparent;
+	content: ' ';
+	height: 0;
+	right: 100%;
+	position: absolute;
+	width: 0;
+}
+
+.TestimonialComment:after {
+	border-width: 16px;
+	border-right-color: #FFFF00;
+	top: 35%;
+}
+
+.TestimonialComment:before {
+	border-width: 14px;
+	border-right-color: #FFFF00;
+	top: 35%;
+}
+
+/*Rahul*/
+.mapGoogle{overflow:hidden;padding:10px;text-align:center;width:960px;}
+.holder{margin: 0px auto; padding: 15px 0px; height: 100% !important; text-align: center; overflow: hidden;}
+#midblock{float:left; height: 100% !important; text-align: left; overflow: hidden;width:60%;padding:20px;}
+#rightblock{float:left; height: 100% !important; text-align: left; overflow: hidden;padding:10px;width:32%}
+.inside H4{font-size:20px;font-weight:normal;}
+#holder H2{font-size:20px;font-weight:normal;margin:20px;}
+#midblock H4{font-size:20px;font-weight:normal;}
+#centerbottom{font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif"; font-size:10pt;color:#333333;width:886px;margin-left:auto;margin-right:auto;}
+.address_in{overflow:hidden;padding:10px 0px;}
+.ss-q-title{float:left; width:20%;margin-top:15px;margin-bottom:16px;}
+.ss-q-short{float:left;margin-top:15px;margin-bottom:16px;width:60%}
+
+input{
+border: 1px solid #ccc;
+font-size: 14px;
+padding: 4px 7px;
+outline: 0;
+}
+
+input:focus {
+border-color: #339933;
+}
+
+textarea{
+border: 1px solid #ccc;
+margin-top:25px;
+font-size: 14px;
+padding: 4px 7px;
+outline: 0;
+overflow: auto;
+padding: 0;
+}
+
+textarea:focus {
+border-color: #339933;
+}
+
+.images{width:100%}
+.imageLeft{float:left;padding:10px; margin-right: 15px; box-shadow: 0px 0px 15px #AAA;}
+.imageMiddle{float:left;padding:10px; margin-right: 15px; margin-left:15px; box-shadow: 0px 0px 15px #AAA;}
+.imageRight{float:left;padding:10px; margin-left: 15px;  box-shadow: 0px 0px 15px #AAA;}
+
+.imageLeft:hover, .imageMiddle:hover, .imageRight:hover {background-color: #FFFF00 !important; box-shadow: 0px 0px 15px #444 !important;}
+
+#cloudAppDiv{width:100%;display:inline-block; margin-bottom:25px;}
+#mobileAppDiv{width:100%;display:inline-block; margin-bottom:25px;}
+#productAppDiv{width:100%;display:inline-block;}
+.imageLeftBottom{text-align:center;font-size: 16px;font-family:"segoe ui light","Tahoma","Verdana","Arial","sans-serif";color:#333}
+.imageMiddleBottom{text-align:center;font-size: 16px;font-family:"segoe ui light","Tahoma","Verdana","Arial","sans-serif";color:#333}
+.imageRightBottom{text-align:center;font-size: 16px;font-family:"segoe ui light","Tahoma","Verdana","Arial","sans-serif";color:#333}
+.appDevelopmentBorder {display:table;margin-top:25px;margin-bottom:25px;padding-bottom:25px;border-bottom: 2px solid #ececec;width:90%;margin-right:auto;margin-left:auto;}
+.testiHeading{font-size:23px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";}
+
+/******** Pradeep *******/
+
+.appDevelopment {display:inline-block;margin-top:25px;margin-bottom:25px;padding-bottom:25px;}
+.appLeftImage {margin-left: 50px;float: left;width: 28%;display:inline-block;margin-top:35px;}
+.ui-tabs-vertical { }
+.ui-tabs-vertical .ui-tabs-nav {float: left; width: 95%;border-bottom:1px solid #ccc }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block;font-size:14px; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0px;font-size:14px }
+.ui-tabs-vertical .ui-tabs-panel {}
+.featureStories {color:#333333;font-size:20px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";padding-bottom: 38px;margin-left: 50px;}
+.problemAndSolution {float:left;margin-right:25px;margin-bottom:25px;margin-top:25px;}
+.problem {font-size:14px;font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";width:46%;float:left;margin-right: 35px;}
+.solution {font-size:14px;font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";width:46%;float:left;}
+.featureWithTechnologyUsed {font-size:16px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";width:46%;float:left;display:table}
+.appTitle {text-align: center;font-size: 26px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";color: #333;display: block;float: left;line-height: 33px;margin-bottom: 10px;}
+li a, li{ outline-color: transparent !important; }
+.appCategories{ padding-right:50px; font-size:18px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";float:left;width:55%;margin-left:20px;}
+#mobileAppDevelopment {height:100px;padding-right:50px; font-size:20px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";font-weight:bold;color:#333}
+#productAndSolution {height:100px;padding-right:50px; font-size:20px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";font-weight:bold;color:#333}
+
+/*************Manish*************/
+div#aboutUsPageContent {width: 980px;height:auto;margin: auto;padding-top: 0px;background-color:#fff;}
+#aboutUsPageContent #topMenuBand{margin-bottom:0px;}
+#aboutUsTopContent{width:100%;float:left;color: #333;text-align: left;}
+.selected{padding-bottom: 16px !important;border-bottom-color: #FFFF00;border-bottom-style: solid;border-bottom-width: 4px;}
+#aboutUsText{font-family:"Segoe UI light","Tahoma","Verdana","Arial","sans-serif";}
+#aboutUsText{width:39%; margin-left:85px;float:left;margin-top:40px;font-size: 23px;}
+#successfulProject{float:right; width:37%;margin-right: 62px;padding: 20px;font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";background-color:#E2E1E1;font-size: 20px;margin-left:20px;}
+#successfulProject ol {list-style-type: none;}
+#successfulProject li { display: block; padding-bottom: 7px; margin-bottom:20px;}
+#teamDetails,#advisorDetail,#partners{display:inline-block;margin-left:50px;margin-top:20px;font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";}
+.personDetail{width:47%;float:left;margin-bottom:25px;margin-right:25px;min-height:240px;}
+.personImage{float:left;}
+.personImage IMG{width:155px;}
+.personName{width:64%;float:left;font-size: 23px;font-family:"segoe ui light","Tahoma","Verdana","Arial","sans-serif";margin-left:2px;}
+.personName img{vertical-align:bottom;margin-left:5px;}
+.personInformation{font-size:14px;text-align:left;}
+.personTopInfo{width: 100%;display: inline-table;}
+#partners ul {list-style-type: none;margin-top:25px;height:100px;}
+#partners li { display: inline; padding: 20px; }
+.heading{font-size: 32px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";color: #333;background-color: #FFFF00;display: block;
+		 text-align: left;margin-bottom: 20px;float: left;line-height: 23px;height: 26px;padding:10px 20px 5px 5px;}
+.countOfSuccessfulProject{font-size: 28px;font-weight: normal;}
+.designation{font-size:20px;margin:0px;padding:0px;}
+
+/*Services Page*/
+div#servicesPageContent {width: 980px;height:auto;margin: auto;padding-top: 0px;background-color:#fff;}
+#servicesPageContent #topMenuBand{margin-bottom:0px;}
+.servicesInformation{width: 280px;margin-left: 20px;float: left;margin-bottom:20px;}
+#cloudApp{margin-left:50px;}
+.image {text-align:center;}
+.image img{border:none;}
+.imageCaption{text-align:center;font-size: 26px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";color: #333;display: block;
+			  margin-bottom: 20px;float: left;line-height: 32px;height: 65px;}
+.services{float: left;width: 980px;background-color: #fff;text-align:left;margin-top:20px;}
+.serviceBrief{font-size: 14px;font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";color: #333;}
+.serviceBrief a{color:#00adef;font-style:italic;text-decoration:underline;}
+.servicePageTestimonials{margin-bottom:25px;display:table; width:90%; margin-left:auto; margin-right:auto;}
+.servicePageTestimonials .Testimonials{float: left;width: 46%;margin-left: 7px; margin-right:28px; padding-top: 0px;padding-bottom: 20px;font-size: 12px;font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";color: #333333;}
+.servicePageTestimonials .TestimonialComment {float: left;width: 292px;height: auto;background-color: #FFFF00;
+										 position: relative;border: 4px solid #FFFF00;padding: 10px 0px 10px 16px;}
+.servicePageTestimonials .TestimonialComment:after{border-width: 16px;}
+
+										 
+/****styling for aboutUsNew Page****/
+.top-heading{font-family:"Segoe UI light","Tahoma","Verdana","Arial","sans-serif";font-size:35px;margin-left:50px}
+.advisorsAndPartnersDetails{display:inline-block;}
+.advisorsAndPartnersDetails #advisorDetail{width:44%;float:left;}
+.advisorsAndPartnersDetails #partners{width:44%;float:left;}
+.advisorsAndPartnersDetails .personDetail{width:100%;}
+.advisorsAndPartnersDetails #partners li{display: inline-block;padding: 20px;vertical-align: middle;}
+#partnerinformation{margin-top:40px;}
+.partner_company {float:left;width:44%;}
+.partner_subheading{font-size: 22px;font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";margin-top:20px;margin-right:20px;border-bottom:1px solid #C0C0C0;}
+#partners{width:100%;}
+/*.partner_subheading span{background-color:#C0C0C0;}*/
+
+/*****styling for careers page****/
+#currentOpenings{float:left;font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";background-color:#E2E1E1;font-size: 20px;width:100%; padding:10px;}
+#currentOpenings  ol {list-style-type: none;}
+#currentOpenings  li { display: block; padding-bottom: 7px; margin-bottom:20px;}
+#currentOpenings a{color:#333;}
+.careerOpportunities ul li{font-family:"Segoe UI","Tahoma","Verdana","Arial","sans-serif";font-size:14px;}
+.careerHeading{font-size: 20px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";color: #333;background-color: #FFFF00;display: block;
+		 text-align: left;margin-bottom: 10px;float: left;padding:2px 20px 3px 2px;margin-top:20px;}
+.underline{text-decoration: underline;}		 
+#impNote{color:#ff0000;text-decoration: underline;font-size:16px;font-style:Segoe UI;}
+#sendProfile{font-size:20px;font-style:Segoe UI;margin-top:20px;}
+#midblockCareer{float:left; height: 100% !important; text-align: left; overflow: hidden;width:55%;padding:10px;}
+#rightblockCareer{float:left; height: 100% !important; text-align: left; overflow: hidden;width:40%; margin-top:-7px}
+#sendProfile{font-size: 20px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";color: #333;background-color: #FFFF00;display: block;
+		 text-align: left;margin-top: -20px;float: left;padding:10px 20px 0 0;}
+/*****Services page Categories CSS*******/
+.servicesHeading{background-color:#ffff00;padding:10px 20px 5px 5px}
+.impactText{float:left;width:72%;height:64px;background-color:#FFFF00;padding:20px}
+.servicesHeadingImpact{float:left;background-color:#999999;padding:36px;font-size: 23px;font-weight: bold;color:white;}
+.aligningTextVeticallycentre{ display: table-cell;vertical-align: middle;}
+.serviceCategoryImage{margin-top:28px;}
+.impact{font-size:16px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";float:left;margin-right:35px;margin-bottom:25px;padding:4px;width:100%}
+.appImage{text-align: center;}
+.appDescTitle{color:#333333;font-size:32px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";padding-bottom: 15px;text-align:left;}
+.appImage img{border:none;}
+.ui-tabs-active a:after{content:"";border-color: #ffff00 transparent transparent transparent;border-style:solid;border-width:10px;position:absolute;left:40%;bottom:-19px}
+.borderright{border-right:1px solid #cccccc !important;}
+.imagesWithFeatures{margin-right:25px;margin-bottom:25px;}
+.imagediv{width:46%;float:left;margin-right: 35px;text-align:center;}
+
+.title{	font-size: 23px;height: 20px;font-family:"Segoe UI Light","Tahoma","Verdana","Arial","sans-serif";line-height: 13px;color: #333;background-color: #FFFF00;text-align: center;margin-top: 40px;
+		margin-bottom: 40px;display: inline-block;padding:10px 20px 5px 2px;}
+#successStories{width:90%; margin-left:auto; margin-right:auto;margin-bottom: 50px;}
+.images >a>img {margin-right: 100px;}
+
+.back-to-top {
+    position: fixed;
+    bottom:25%;
+    right: 0px;
+    text-decoration: none;    
+    background-color: #fff;
+    box-shadow: 0px 0px 15px #AAA;    
+    display: none;
+    font-size: 12px;
+    font-family: "segoe ui light","Tahoma","Verdana","Arial","sans-serif";
+    color: #333;
+    padding: 10px;	
+    width : 100px; 
+    text-align : center;
+}
+.back-to-top:hover {background-color: #FFFF00 !important;box-shadow: 0px 0px 15px #444 !important;}
+.scroll-image{ background: url(../images/scroll_top.png) no-repeat 0px 0px; float: left; padding-top:4px; padding-bottom: 6px;padding-left:10px;padding-right:0px;width: 100px;	}
+.hidden{display:none;}
+
+

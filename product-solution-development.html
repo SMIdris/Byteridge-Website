@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Product Development, Solution Development, BioGenex Life Sciences Pvt. Ltd., Tata Strategic Management Group,Large Software Corporate" />
+<meta name="description" content="Following are the services offered: Cloud Application Development & Migration (AWS and Azure), Mobile App Development (Android, iOS, HTML5), Product and Solution development using .NET / Java / SharePoint and Joomla based web applications" />
+<title>Byteridge - Product and Solution Development Services</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/banner.css" />	
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>	
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui.js"></script>	
+<script src="js/jquery.bxslider2.min.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+			$(window).load(function() 
+			{
+				var _h = window.location.hash;
+				_h = (_h.substring(_h.indexOf("#")+2,_h.length));
+				
+				if(_h.length > 0)
+				{
+					$('html, body').stop().animate({
+							scrollTop: $(".featureStories").offset().top
+						}, 1500,'easeInOutExpo');
+					
+					//parent.location.hash = "";
+					$("."+_h).trigger('click');
+				}
+			});
+
+            $(function() {
+                $('#tabs li').bind('click',function(event){
+                    
+					$('html, body').stop().animate({
+                        scrollTop: $(".featureStories").offset().top
+                    }, 1500,'easeInOutExpo');
+                    event.preventDefault();
+                });
+            });
+        </script>
+
+<script>
+  $(function() {
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+	$( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );	
+	//alert($(".featureWithTechnologyUsed").parent().next('img').height());
+	//$(".featureWithTechnologyUsed").css("height",$(".featureWithTechnologyUsed").parent().next('img').height());
+	//$(".appCategories").css("height",$(".appLeftImage").height());
+  });
+  
+  </script>
+
+</head>
+
+<body>
+ <div id="masterPageContent">
+      <header id="topMenuBand">         
+        <span class="bottomline">
+        <div class="logo"><a href="/"><img src="images/logo.png" title="Byteridge"/></a></div>            
+		<nav id="navi">
+              	          
+					<a href="about-us.html"  title="About Us"  class="menuitem">About Us</a>
+                    <a href="services.html" class="selected"  title="Services" style="padding:20px" >Services</a>
+                    <a href="success-stories.html"  title="Success Stories"  class="menuitem">Success Stories</a>
+                    <a href="http://byteridge.com/blog/index.php/blogs"  title="Blogs"  class="menuitem">Blogs</a>
+                    <a href="contact-us.html"  title="Contact Us"  class="menuitem">Contact Us</a>
+           
+        </nav>
+		</span>
+	</header>
+	
+	<div class="appDevelopment">
+		<div class="appLeftImage">
+						<div class="appImage"><img src="images/web.png" title="Web" border="0"></img></div>						
+    	</div>	
+		<div class="appCategories">
+				<div class="appDescTitle">Product and Solution Development</div>
+				<div class="aligningTextVeticallycentre">Byteridge leverages its expertise in architecting and development at the top technology firms to 
+				create custom products and solutions tailored to your needs We can also build solutions using content management systems like 
+				SharePoint, Joomla & Magento to bring your ideas to life rapidly.
+				</div>
+				<img class="serviceCategoryImage" src="images/web45.png" title="Product and Solution Development"/>
+			</div>
+	</div>
+	
+	<div class="featureStories">
+		<h1>Featured Success Stories</h1>
+	<div class="featureStoriestabs" id="tabs">
+		<ul>
+			<li class="borderright">
+				<a class="featureStoriestabfirst" href="#featureStoriestabfirst">
+					eCommerce platform
+				</a>
+			</li>
+			<li class="borderright">
+				<a class="featureStoriestabsecond" href="#featureStoriestabsecond">
+					Productivity Enhancement Platform
+				</a>
+			</li>			
+			<li>
+				<a class="featureStoriestabthird" href="#featureStoriestabthird">
+					Integrated Reporting Dashboard
+				</a>
+			</li>			
+		</ul>
+		<article id="featureStoriestabfirst">
+		<h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/web1.png"  title="BioGenex Life Sciences" style="box-shadow: 0px 0px 15px #AAA;"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table>
+				<tr><td>Client:<br/><b>BioGenex Life Sciences Pvt. Ltd.</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>Joomla, VirtueMart, DocMan, PHP,</b></td></tr>
+				<tr><td><b>Javascript/HTML/CSS, Jquery</b></td></tr>				
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>Client wanted to develop a web based product showcase and eCommerce application with the following attributes:<br/><br/> 
+			<ul><li style="margin-left:20px">User friendly manner product showcase with easy navigation</li>	
+				<li style="margin-left:20px">Intuitive request for quote & easy search experience</li>
+				<li style="margin-left:20px">Knowledge sharing platform for molecular diagnostics</li>
+				<li style="margin-left:20px">Context customization based on user location/ geography</li>
+				<li style="margin-left:20px">State of the art user experience which positions BioGenex as a brand associated with innovation.</li></p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>Byteridge developed a eCommerce application using open source CMS Joomla and various extensions.The VirtueMart eCommerce extension was significantly modified to meet unique client requirements. </p><br/>
+            <p>The platform was enhanced beyond eCommerce portal to even showcase client’s intellectual property and corporate information.</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">
+		Greater online experience for users resulted in higher traffic with increased number of enquiries for various products listed on the website. 
+		Easy management of the content on website without program updates
+		</div>
+		</div>
+	</article>
+	<article id="featureStoriestabsecond">
+	   <h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/web2.png" title="Tata Strategic Management Group" style="box-shadow: 0px 0px 15px #AAA;"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table><br/>
+				<tr><td>Client:<br/><b>Tata Strategic Management Group</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>.NET</b></td></tr>
+				<tr><td><b>VB Script</b></td></tr>				
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>The client's employees are required to prepare and publish high quality written deliverables to their clients on a daily basis. The client had been working on developing a productivity enhancement platform which would reduce the time and effort required to produce these deliverables and free up time for other activities.</p><br/>
+			<p>Since the original project was plagued by delays, Byteridge was asked to step in to redesign and rapidly develop a solution</p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>Byteridge quickly understood the client's vision and requirements and recommended a technology solution using Microsoft plug-ins.</p><br/>
+            <p>An agile development method was adopted to be able to deliver features in quick increments, thus delivering value to the client right from the start and helping them implement the platform on their original schedule.</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">High quality productivity enhancement platform was rolled out to all employees and has contributed to significant productivity improvements
+		</div>
+		</div>
+	</article>	
+    <article id="featureStoriestabthird">
+	    <h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/web3.png"  title="SharePoint 2010, SQL Reporting" style="box-shadow: 0px 0px 15px #AAA;"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table><br/>
+				<tr><td>Client:<br/><b>Large Software Corporate</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>SharePoint 2010, SQL Reporting & Analysis Services,</b></td></tr>
+				<tr><td><b>Excel Reporting & Charting Services, Team Foundation Server Cubes,</b></td></tr>				
+				<tr><td><b>.NET & MSSQL</b></td></tr>				
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>The product team were organized into 3 independent disciplines. For product managers to see overall status, each individual discipline team lead needed to manually prepare reports which then needed to be consolidated and sent via email. The manual process required considerable time and effort and frequently suffered from delays, errors and inconsistencies.</p><br/>
+			<p>Byteridge was asked to develop an integrated, common dashboard utilizing existing data sources and systems</p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>Byteridge built a connector layer which could connect to any information exposing system / database by leveraging the APIs / DBs exposed by respective systems.</p><br/>
+            <p>This information was processed by leveraging SQL Reporting, Analysis services, Excel Charting Services & Cubes to create integrated dashboards. Summary and detailed views were provided with links back to the original information sources. Auto mailers were sent to stakeholders at regular milestones.</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">Integrated Dashboard allowed managers to have real-time view of status of all teams in single location with no dependence on manual report generation/ processing
+		</div>
+		</div>
+	</article>	
+
+	</div>
+	</div>
+	<br class="clearit"/>
+	<footer id="footer">
+			 <nav class="footerlink">
+			 <a href="careers.html" title="Careers">Careers</a><span class="footerseperator">|</span>
+             <a href="sitemap.html" title="Site Map" style="font-size:14px;font-family: Segoe UI,Tahoma,Verdana,Arial,sans-serif">Site Map</a>
+			 <span class="footerseperator">|</span>			 
+			 <a href="contact-us.html" title="Contact Us">Contact Us</a>
+			</nav>
+			<nav class="sociallink">
+			 <a href="http://www.linkedin.com/company/byteridge-software-private-limited" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/linkedin.png" border=0  title="Linkedin"/></a>
+			 <a href="https://www.facebook.com/byteridge" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/fb.png" border=0  title="Facebook"/></a>
+			 <a href="https://twitter.com/byteridge" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/twitter.png" border=0 title="Twitter"/></a>
+			 <a href="https://plus.google.com/103222780013501523576" rel="publisher" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/google_plus.png" title="Google+" border=0/></a>
+			</nav>
+		</footer>
+	
+	<a href="#" class="back-to-top">
+	  <span class="scroll-image"><span style="margin-left: 10px;">Scroll to Top</span></span>
+    </a>
+</div>
+</body>
+ <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+      try {
+           var pageTracker = _gat._getTracker("UA-3788824-2");
+           pageTracker._trackPageview();
+          } 
+      catch(err) {}
+  </script>
+  <script type="text/javascript">
+  jQuery(document).ready(function() {
+    var offset = 100;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+ </script>
+</html>

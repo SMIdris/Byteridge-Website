@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Cloud Application Development, Cloud Migration,Hyderabad Marathon 2010,9Slides Inc (US Based Tech Startup),Software Product Development MNC" />
+<meta name="description" content="Following are the services offered: Cloud Application Development and Migration (AWS and Azure), Mobile App Development (Android, iOS, HTML5), Product and Solution development using .NET / Java / SharePoint and Joomla based web applications" />
+<title>Byteridge - Cloud and Applications Development and Migration Services</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/banner.css" />	
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>	
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui.js"></script>	
+<script src="js/jquery.bxslider2.min.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+<script type="text/javascript">
+			
+			$(window).load(function() 
+			{
+				var _h = window.location.hash;
+				_h = (_h.substring(_h.indexOf("#")+2,_h.length));
+				
+				if(_h.length > 0)
+				{
+					$('html, body').stop().animate({
+							scrollTop: $(".featureStories").offset().top
+						}, 1500,'easeInOutExpo');
+					
+					//parent.location.hash = "";
+					$("."+_h).trigger('click');
+				}
+			});
+
+            $(function() {
+                $('#tabs li').bind('click',function(event){
+                    
+					$('html, body').stop().animate({
+                        scrollTop: $(".featureStories").offset().top
+                    }, 1500,'easeInOutExpo');
+                    event.preventDefault();
+                });
+            });
+        </script>
+<script>
+  $(function() {
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+	$( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );		
+  });
+  
+  </script>
+
+</head>
+
+<body>
+ <div id="masterPageContent">
+    <header id="topMenuBand">         
+	<span class="bottomline">
+       <div class="logo"><a href="/"><img src="images/logo.png" title="Byteridge"/></a></div>               
+		<nav id="navi">
+              	          
+					<a href="about-us.html"  title="About Us"  class="menuitem">About Us</a>
+                    <a href="services.html" class="selected"  title="Services" style="padding:20px" >Services</a>
+                    <a href="success-stories.html"  title="Success Stories"  class="menuitem">Success Stories</a>
+                    <a href="http://byteridge.com/blog/index.php/blogs"  title="Blogs"  class="menuitem">Blogs</a>
+                    <a href="contact-us.html"  title="Contact Us"  class="menuitem">Contact Us</a>
+           
+        </nav>
+		</span>
+	</header>
+	
+	<div class="appDevelopment">
+		<div class="appLeftImage">
+						<div class="appImage"><img src="images/cloud.png" Title="Cloud" border="0"></img></div>						
+    	</div>	
+		<div class="appCategories">
+				<div class="appDescTitle">Cloud App Development and Migration</div>
+				<div class="aligningTextVeticallycentre">Byteridge's experienced team delivers optimized solutions to transform your enterprise, leveraging the latest cloud and storage technologies.
+				     We prototype, architect ideas and migrate your current applications to cloud platforms.
+				</div>
+				<img class="serviceCategoryImage" src="images/cloudservice.png" title="cloud services"/>
+			</div>
+	</div>
+	
+	<div class="featureStories">
+		<h1>Featured Success Stories</h1>
+	<div class="featureStoriestabs" id="tabs">
+		<ul>
+			<li class="borderright">
+				<a class="featureStoriestabfirst" href="#featureStoriestabfirst">
+					Real-Time Marathon Runner Tracking
+				</a>
+			</li>
+			<li class="borderright">
+				<a class="featureStoriestabsecond" href="#featureStoriestabsecond">
+					Presentation & Video Synchronization Platform
+				</a>
+			</li>			
+			<li>
+				<a class="featureStoriestabthird" href="#featureStoriestabthird">
+					Corporate College Campus Accelerator
+				</a>
+			</li>			
+		</ul>
+		<article id="featureStoriestabfirst">
+		<h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/cloud1.png"  title="Hyderabad Marathon" style="box-shadow: 0px 0px 15px #AAA;"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table>
+				<tr><td>Client:<br/><b>Hyderabad Marathon 2010</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>Amazon Elastic Compute Cloud</b></td></tr>
+				<tr><td><b>Joomla</b></td></tr>
+				<tr><td><b>PHP</b></td></tr>
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>Hyderabad Marathon organizers wanted to ensure the safety and well-being of all runners during the event. They needed a real-time tracking system that would allow them to visually track the progress of each participant through Hyderabad city.</p>
+			<br/>
+			<p>Byteridge was asked to create a platform for online management and tracking of runners. The system was required to be live for a short duration preceding and during the Marathon.</p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>Byteridge designed and developed a Cloud based solution which would scale dynamically. Wearable electronic chips were given to runners and their locations were monitored through a Runner Chip Tracking Server built on Amazon Elastic Compute cloud.</p>
+			<br/>
+			<p>Byteridge also built a website for race information (dates, locations, schedule, routes and prizes) along with running preparation advice, online registration.</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">The cloud based solution allowed seamless scaling and availability of the application through the course of the event. Additional functionality for online registrations recommended by Byteridge made it even easier for the event organizers to manage the Marathon </div>
+		</div>
+	</article>
+	<article id="featureStoriestabsecond">
+	    <h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/cloud2.png" title="9Slides Inc" style="box-shadow: 0px 0px 15px #AAA;"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table>
+				<tr><td>Client:<br/><b>9Slides Inc (US Based Tech Startup)</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>Microsoft Azure</b></td></tr>
+				<tr><td><b>.NET, MVC, Razor View</b></td></tr>
+				<tr><td><b>JQuery, HTML5</b></td></tr>
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>9SLIDES is venture funded start up offering a cloud based presentation platform, which allows users to create, deliver & synchronize their presentations with speaker video and make them available on demand, for mobile devices with modern browsers.</p>
+			<br/>
+			<p>Client needed a team with deep expertise on Azure & Microsoft Tech & Web stack, which could work with senior architects & developers and implement features of the system on regular basis.</p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>Byteridge team worked closely with the 9Slides development team, shares inputs and building many critical features for the 9Slides platform.</p>
+			<br/>	
+			<p>Our existing experience on Azure, JQuery, MVC & HTML5 helped the client gain important insight into architecting cloud solutions before starting the design & implementation phase. The team also helped client investigate next generation technologies and brainstormed different approaches</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">9Slides is fast gaining popularity across the web as preferred medium to share talks with synchronized presentations and speaker videos. Our experts inputs and constant collaboration helped 9Slides achieve high scalability and rapidly deliver features to its end users.</div>
+		</div>
+	</article>		
+	<article id="featureStoriestabthird">
+	    <h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/cloud3.png" title="Software Product Development MNC" style="box-shadow: 0px 0px 15px #AAA;"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table>
+				<tr><td>Client:<br/><b>Software Product Development MNC</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>Microsoft Azure</b></td></tr>
+				<tr><td><b>.NET, MVC</b></td></tr>
+				<tr><td><b>JQuery</b></td></tr>
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>The client engages with students at top tier campuses across India for various brand building and talent connect activities. As part of the program, the Campus Connect team needed a platform which would enable students to interact with mentors in Organization.</p>
+			<br/>
+			<p>An additional feature required was the ability to host and conduct many large scale events and competitions over the course of the year across various campuses.</p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>Byteridge built an Azure based portal, which allowed students to log on and create profiles, interact and network with Microsoft Mentors and share demo videos, design documents, presentations and other media.</p>
+			<br/>
+			<p>The platform also gave access to various Microsoft technology resources and the students could discover and participate in competitions organized throughout the year</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">Increased student community engagement for Microsoft, which helped in spotting good talent. It also helped create positive brand image for Microsoft in top tier campuses across India.</div>
+		</div>
+	</article>
+
+	</div>
+	</div>
+	<br class="clearit"/>
+<footer id="footer">
+			 <nav class="footerlink">
+			 <a href="careers.html" title="Careers">Careers</a><span class="footerseperator">|</span>
+             <a href="sitemap.html" title="Site Map" style="font-size:14px;font-family: Segoe UI,Tahoma,Verdana,Arial,sans-serif">Site Map</a>
+			 <span class="footerseperator">|</span>			 
+			 <a href="contact-us.html" title="Contact Us">Contact Us</a>
+			</nav>
+			<nav class="sociallink">
+			 <a href="http://www.linkedin.com/company/byteridge-software-private-limited" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/linkedin.png" border=0  title="Linkedin"/></a>
+			 <a href="https://www.facebook.com/byteridge" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/fb.png" border=0  title="Facebook"/></a>
+			 <a href="https://twitter.com/byteridge" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/twitter.png" border=0 title="Twitter"/></a>
+			 <a href="https://plus.google.com/103222780013501523576" rel="publisher" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/google_plus.png" title="Google+" border=0/></a>
+			</nav>
+		</footer>
+ 	
+	<a href="#" class="back-to-top">
+   		<span class="scroll-image"><span style="margin-left: 10px;">Scroll to Top</span></span>
+    </a>
+  </div>
+ </body>
+ <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+      try {
+           var pageTracker = _gat._getTracker("UA-3788824-2");
+           pageTracker._trackPageview();
+          } 
+      catch(err) {}
+  </script>
+  <script type="text/javascript">
+  jQuery(document).ready(function() {
+    var offset = 100;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+ </script>
+</html>

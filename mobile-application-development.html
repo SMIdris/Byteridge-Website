@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Mobile Application Development, Android, iOS, IPhone Apps, HTML5,Parinishtaa Media Pvt. Ltd. (Easy Cabs, Sky Cabs),Swym Corporation,HealthHihway, An Apollo Hospitals Company" />
+<meta name="description" content="Following are the services offered: Mobile App Development (Android, iOS, HTML5), Cloud Application Development & Migration (AWS and Azure), Product & Solution development using .NET / Java / SharePoint & Joomla based web applications" />
+<title>Byteridge - Mobile Application Development, Android, iOS, IPhone, IPad</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/banner.css" />	
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>	
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui.js"></script>	
+<script src="js/jquery.bxslider2.min.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+			$(window).load(function() 
+			{
+				var _h = window.location.hash;
+				_h = (_h.substring(_h.indexOf("#")+2,_h.length));
+				
+				if(_h.length > 0)
+				{
+					$('html, body').stop().animate({
+							scrollTop: $(".featureStories").offset().top
+						}, 1500,'easeInOutExpo');
+					
+					//parent.location.hash = "";
+					$("."+_h).trigger('click');
+				}
+			});
+			
+            $(function() {
+                $('#tabs li').bind('click',function(event){
+                    
+					$('html, body').stop().animate({
+                        scrollTop: $(".featureStories").offset().top
+                    }, 1500,'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    event.preventDefault();
+                });
+            });
+        </script>
+
+<script>
+  $(function() {
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+	$( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );	
+  });
+  
+  </script>
+
+</head>
+
+<body>
+ <div id="masterPageContent">
+    <header id="topMenuBand">         
+        <span class="bottomline">
+        <div class="logo"><a href="/"><img src="images/logo.png" title="Byteridge"/></a></div>            
+		<nav id="navi">
+              	          
+					<a href="about-us.html"  title="About Us"  class="menuitem">About Us</a>
+                    <a href="services.html" class="selected"  title="Services" style="padding:20px" >Services</a>
+                    <a href="success-stories.html"  title="Success Stories"  class="menuitem">Success Stories</a>
+                    <a href="http://byteridge.com/blog/index.php/blogs"  title="Blogs"  class="menuitem">Blogs</a>
+                    <a href="contact-us.html"  title="Contact Us"  class="menuitem">Contact Us</a>
+           
+        </nav>
+		</span>
+	</header>
+	
+	<div class="appDevelopment">
+		<div class="appLeftImage">
+						<div class="appImage"><img src="images/mobile.png" Title="mobile" border="0"></img></div>
+    	</div>	
+		<div class="appCategories">
+				<div class="appDescTitle">Mobile App Development</div>
+				<div class="aligningTextVeticallycentre">Mobile enable your business & ideas with our deep expertise in Android, iOS & HTML5 Application
+				Development to edge ahead of the competition.
+				</div>
+				<img class="serviceCategoryImage" src="images/android_services.png" Title="android services"/>
+			</div>
+	</div>
+	<br/>
+	<div class="featureStories">
+		<h1>Featured Success Stories</h1>
+	<div class="featureStoriestabs" id="tabs">
+		<ul>
+			<li class="borderright">
+				<a class="featureStoriestabfirst" href="#featureStoriestabfirst">
+					In Cab Entertainment System
+				</a>
+			</li>
+			<li class="borderright">
+				<a class="featureStoriestabsecond"  href="#featureStoriestabsecond">
+					Deal Coupon Management App
+				</a>
+			</li>
+			<li>
+				<a class="featureStoriestabthird"  href="#featureStoriestabthird">
+					Lab Reports On The Go
+				</a>
+			</li>
+		</ul>
+		<article id="featureStoriestabfirst">
+		 <h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/mobile3.png" style="box-shadow: 0px 0px 15px #AAA;" title="Easy Cabs"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table>
+				<tr><td>Client:<br/><b>Parinishtaa Media Pvt. Ltd. (Easy Cabs, Sky Cabs)</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>Android, HTML5</b></td></tr>
+				<tr><td><b>Cloud Platform</b></td></tr>
+				<tr><td><b>Java, jQuery</b></td></tr>
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>The client wanted to build an In-cab entertainment system which could deliver rich content to In-cab displays with dynamic over the air updates delivered from the Cloud. The content needed to be transmitted and stored securely.</p>
+			<br/>
+			<p>We were asked to build a Cloud based CMS allowing management of media & advertisements in cabs operating in all major cities across India.</p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>Byteridge architected and built an android based cloud solution to ensure high scalability. The Android based display application was configured with authentication for ensuring content security.</p>
+			<br/>
+			<p>The fully automated system automatically delivers content and advertisements to the in-system storage via cloud whenever 3G connectivity is available and reports back tracking data on consumer impressions</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">Solution is currently installed in over 1000+ cab entertainment displays operating across major cities in India and interacting with the server in real-time. The system auto updates once the device is installed and can easily be managed without requiring a dedicated full time resource.</div>		
+	</div>
+	</article>
+	<article id="featureStoriestabsecond">
+	    <h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/mobile1.png" style="box-shadow: 0px 0px 15px #AAA;" title="Swym Corporation"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table>
+				<tr><td>Client:<br/><b>Swym Corporation</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>Google Android, Google Cloud</b></td></tr>
+				<tr><td><b>Messaging, Google Save-To-Wallet</b></td></tr>				
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>Swym Corporation is a retail startup which required an Android application to complement their iOS and web apps. They needed a native Android application developed which worked similar to their existing applications on iOS and web with the same UX.</p>
+			<br/>
+			<p>Byteridge was asked to create a native Android application which would integrate with their existing web-services.</p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>Byteridge developed a native Android application designed to be responsive to any screen size running the Android OS.</p>
+			<br/>	
+			<p>The application integrated well with their web-services and implemented Google Cloud Messaging, Google Save-To-Wallet APIs.</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">The responsive design of the native Android application allowed Swym Corporation to deploy to a majority of their target customers who use an Android smartphone or tablet.
+		</div>
+		</div>
+	</article>
+	<article id="featureStoriestabthird">
+	    <h1 class="hidden"> </h1>
+		<div class="imagesWithFeatures">
+		<div class="imagediv">
+			<img src="images/SuccessStories/mobile2.png" style="box-shadow: 0px 0px 15px #AAA;" title="HealthHihway"/>
+		</div>
+		<div class="featureWithTechnologyUsed">
+			<span class="aligningTextVeticallycentre"><table>
+				<tr><td>Client:<br/><b>HealthHihway, An Apollo Hospitals Company</b></td></tr>
+				<tr><td><br/>Technologies Used:</td></tr>
+				<tr><td><b>Android, J2ME, LWUIT</b></td></tr>
+				<tr><td><b>Web Services</b></td></tr>				
+		   </table>
+		   </span>
+		</div>
+		</div>
+		<div class="problemAndSolution">
+			<div class="problem">
+			<span class="servicesHeading">The Problem:</span><br/><br/>
+			<p>The client operates a health information network that enables health organizations to connect with each other to share data and conduct transactions between providers, employers, payers, TPA's, practitioners and patients.<p>
+			<br/>
+			<p>Their patient population had limited PC+ Internet penetration and the Client wanted to use mobility to extend the reach of their health information network. We were asked to develop an application to enable mobile access for Patient health records and lab reports.</p>
+			</div>
+			<div class="solution">
+			<span class="servicesHeading">Our Solution:</span><br/><br/>
+			<p>The mobile app built by Byteridge enabled efficient and seamless interaction between the Hospital and Patients. Once registered, patients could use the app to access their health records and lab reports.</p>
+			<br/>
+			<p>Any communications or notifications were automatically displayed on the app without the need for calling or visiting the Hospital. The app also enables sharing of the reports via email.</p>
+			</div>
+		</div>
+		<div class="impact">
+		<div class="servicesHeadingImpact">IMPACT</div>
+		<div class="impactText">The mobile application has now been provided to patients and has successfully been adopted by many patients receive notifications on lab report status and to view their lab reports over mobile devices</div>
+		</div>
+		</article>
+	</div>
+	</div>	<br class="clearit"/>
+<footer id="footer">
+			 <nav class="footerlink">
+			 <a href="careers.html" title="Careers">Careers</a><span class="footerseperator">|</span>	
+             <a href="sitemap.html" title="Site Map" style="font-size:14px;font-family: Segoe UI,Tahoma,Verdana,Arial,sans-serif">Site Map</a>
+			 <span class="footerseperator">|</span>			 
+			 <a href="contact-us.html" title="Contact Us">Contact Us</a>
+			</nav>
+			<nav class="sociallink">
+			 <a href="http://www.linkedin.com/company/byteridge-software-private-limited" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/linkedin.png" border=0  title="Linkedin"/></a>
+			 <a href="https://www.facebook.com/byteridge" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/fb.png" border=0  title="Facebook"/></a>
+			 <a href="https://twitter.com/byteridge" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/twitter.png" border=0 title="Twitter"/></a>
+			 <a href="https://plus.google.com/103222780013501523576" rel="publisher" target="_blank" style="padding-left: 5px;padding-right: 5px;"><img src="images/google_plus.png" title="Google+" border=0/></a>
+			</nav>
+		</footer>
+	
+	<a href="#" class="back-to-top">
+	  <span class="scroll-image"><span style="margin-left: 10px;">Scroll to Top</span></span>
+    </a>
+</div>
+</body>
+ <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+      try {
+           var pageTracker = _gat._getTracker("UA-3788824-2");
+           pageTracker._trackPageview();
+          } 
+      catch(err) {}
+  </script>
+  <script type="text/javascript">
+  jQuery(document).ready(function() {
+    var offset = 100;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+ </script>
+</html>
